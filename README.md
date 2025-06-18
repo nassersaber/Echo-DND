@@ -22,7 +22,7 @@ Our model was rigorously validated on the public CAMUS and EchoNet-Dynamic datas
 ## 🖼️ Architecture
 
 <p align="center">
-  <img src="assets/echo_dnd_architecture.png" width="700px" alt="Echo-DND Architecture"/>
+  <img src="docs/static/images/echo_dnd_architecture.png" width="700px" alt="Echo-DND Architecture"/>
 </p>
 
 > *Figure: Overall architecture of the Echo-DND model, illustrating the dual noise (Gaussian and Bernoulli) diffusion pathways, the Multi-scale Fusion Conditioning Module (MFCM), and the integration of various loss components including Spatial Coherence Calibration (SCC).*
