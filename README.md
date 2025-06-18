@@ -1,20 +1,9 @@
 # Echo-DND: A Dual Noise Diffusion Model for Robust and Precise Left Ventricle Segmentation in Echocardiography
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Paper-Springer-green?logo=spring&style=flat-square" alt="Paper Link"/>
-  <a href="[https://www.springer.com/journal/42452](https://link.springer.com/article/10.1007/s42452-025-07055-5)">
-    <img src="https://img.shields.io/badge/Journal-Discover%20Applied%20Sciences-blue?style=flat-square&logo=springer"/>
-  </a>
-  <a href="https://arxiv.org/abs/xxxx.xxxxx">
-    <img src="https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&style=flat-square"/>
-  </a>
-  <a href="https://github.com/abdur75648/Echo-DND">
-    <img src="https://img.shields.io/badge/Project-GitHub-black?logo=github&style=flat-square"/>
-  </a>
-  <a href='https://abdur75648.github.io/Echo-DND'>
-    <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=githubpages&logoColor=white' alt='Project Page'>
-  </a>
-</p>
+[![](https://img.shields.io/badge/Paper-Discover%20Applied%20Sciences%20(Springer)-green?logo=springer&style=flat-square)](https://doi.org/10.1007/s42452-025-07055-5) \
+[![](https://img.shields.io/badge/arXiv-Preprint-red?logo=arxiv&style=flat-square)]([ARXIV_ID_IF_AVAILABLE]) \
+[![](https://img.shields.io/badge/Code-GitHub-black?logo=github&style=flat-square)](https://github.com/abdur75648/Echo-DND) \
+[![](https://img.shields.io/badge/Project-Page-blue?style=flat&logo=githubpages&logoColor=white)](https://abdur75648.github.io/Echo-DND)
 
 ---
 
