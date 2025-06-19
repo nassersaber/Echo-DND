@@ -1,7 +1,7 @@
 # Echo-DND: A Dual Noise Diffusion Model for Robust and Precise Left Ventricle Segmentation in Echocardiography
 
 [![](https://img.shields.io/badge/Paper-Discover%20Applied%20Sciences%20(Springer)-green?logo=springer&style=flat-square)](https://doi.org/10.1007/s42452-025-07055-5)
-[![](https://img.shields.io/badge/arXiv-Preprint-red?logo=arxiv&style=flat-square)](https://www.arxiv.org/abs/xxxx.yyyy)
+[![](https://img.shields.io/badge/arXiv-Preprint-red?logo=arxiv&style=flat-square)](https://arxiv.org/abs/2506.15166)
 [![](https://img.shields.io/badge/Code-GitHub-black?logo=github&style=flat-square)](https://github.com/abdur75648/Echo-DND)
 [![](https://img.shields.io/badge/Project-Page-blue?style=flat&logo=githubpages&logoColor=white)](https://abdur75648.github.io/Echo-DND)
 
