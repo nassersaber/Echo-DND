@@ -29,13 +29,55 @@ Our model was rigorously validated on the public CAMUS and EchoNet-Dynamic datas
 
 ---
 
-## 📦 Code Availability
+## ⚙️ Setup & Installation
 
-> 🚧 Code coming soon...
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/abdur75648/Echo-DND.git
+    cd Echo-DND
+    ```
 
-We are currently in the process of cleaning up and preparing the codebase and model weights for public release. We aim to make them available in this repository to facilitate further research and reproducibility. Please stay tuned for updates!
+2.  **Install Dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Prepare the Dataset:**
+   - Download the CAMUS and EchoNet-Dynamic datasets.
+   - Organize them into a root data directory with the following structure:
+     ```
+     <your_data_root_dir>/
+     ├── CAMUS/
+     │   ├── patient0001/
+     │   │   ├── patient0001_4CH_ED.mhd
+     │   │   ├── patient0001_4CH_ED_gt.mhd
+     │   │   └── ... (other patient files)
+     │   └── ... (other patient folders)
+     └── EchoNet-Dynamic/
+         ├── Train/
+         │   ├── Frames/
+         │   │   └── 0X100037609D9A4939_image0001.png
+         │   └── Masks/
+         │       └── 0X100037609D9A4939_image0001.png (corresponding mask)
+         ├── Val/
+             └── ...
+     ```
+   - The `echo_dnd_dataset.py` script is configured to load data assuming this structure.
 
 ---
+
+## 🏃‍♂️ Training & Inference
+### Training
+To train the Echo-DND model, run the following command:
+```bash
+python training_echo_dnd.py --data_dir /path/to/your_data_root_dir --batch_size 4 --lr 1e-4 --out_dir ./results/training_run1
+```
+
+### Inference
+To perform inference on a single image, use the following command:
+```bash
+python inference_echo_dnd.py --image_path /path/to/your/test_image.png --model_path /path/to/your/pretrained_echodnd_model.pt --out_dir ./results/inference_output
+```
 
 ## 📄 Citation
 
